@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Node server dummy",
+  "main": "app.js",
+  "scripts": {
+     "start": "node server/app.js" ,
+     "dev": "nodemon server/app.js" 
+    }
+}
+
