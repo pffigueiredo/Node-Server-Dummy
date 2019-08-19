@@ -4,5 +4,5 @@ onDOMContentLoaded = (function(){
 })()
 
 var setJson =  (data) =>{
-    document.getElementById("json").innerHTML = JSON.stringify(data);
+    document.getElementById("json").innerHTML = JSON.stringify(data, undefined, 2);
 }
